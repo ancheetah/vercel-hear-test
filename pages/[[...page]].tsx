@@ -68,7 +68,7 @@ export default function Page({
       ) : (
         <BuilderComponent model="page" content={page} />
       )}
-      {console.log(page)}
+      {console.log(page, page.data.blocks[4].bindings.style)}
     </>
   )
 }
